@@ -1,0 +1,7 @@
+INSTALLATION OF REACT COMMANDS 
+
+1 npm -g install create-react-app
+
+2 npx create-react-app demo
+
+3 npm start

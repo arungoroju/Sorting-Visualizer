@@ -1,0 +1,91 @@
+.ab{
+    background-color: blue;
+    width: 1500px;
+    height:60px;
+    padding: 30px;
+    align-items:center;
+    justify-content: center;
+}
+.ab li{
+    margin-left: 50px;
+    list-style-type: none;
+}
+li {
+    background-color: rgb(10, 22, 32);
+    box-shadow: 0 0 20px rgba(184, 156, 166, 0.8), 0 0 40px rgba(255, 0, 0, 0.6);
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    text-align: center;
+}
+.ab ul{
+    display: flex;
+}
+.ab a{
+    text-decoration: none;
+}
+.ab li:hover{
+    background-color: rgb(50, 14, 211);
+    transform: scale(1.05);
+    height: 30px;
+    width:90px;
+    align-items: center;
+    
+}
+.a{
+    background-color: aqua;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+button{
+    color: brown;
+    height:30px;
+    width:30px;
+    /* display: flex; */
+    margin-right: 10px; 
+    align-items: center;
+}
+button:hover{
+    background-color: aqua;
+    transform: scale(1.05);
+}
+.b{
+    background-color: black;
+    height: 190px;
+    width: 290px;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.b input{
+    height: 30px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+
+  
+  .b button {
+    width: 40px;
+    height: 20px;
+  }
+  .b {
+    display: flex;
+    flex-wrap: wrap; /* Ensures buttons wrap to the next line */
+    justify-content: center; /* Centers the buttons in the box */
+    gap: 10px; /* Adds space between buttons */
+    padding: 20px; /* Adds padding around the buttons inside the box */
+    border: 2px solid black; /* Creates a border around the box */
+    width: 300px; /* Defines a fixed width for the box */
+  }
+  
+  .b button {
+    width: 80px;
+    height: 40px;
+  }
+  .b button  {
+    box-shadow: 0 0 30px rgba(98, 0, 234, 1); /* Stronger on hover */
+}
